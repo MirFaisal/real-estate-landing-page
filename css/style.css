@@ -174,3 +174,83 @@ body {
   font-size: 36px;
   line-height: 150%;
 }
+.service-section .service .service-items {
+  display: flex;
+  justify-content: space-between;
+}
+.service-section .service .service-items .service-item {
+  width: 300px;
+  border: 1px solid #eeedde;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.service-section .service .service-items .service-item .services-title {
+  height: 35px;
+  padding: 0 15px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 5px solid #ff7527;
+  box-sizing: border-box;
+}
+.service-section .service .service-items .service-item .services-title h4 {
+  padding: 0;
+  margin: 0;
+}
+.service-section .service .service-items .service-item .services-title p {
+  padding: 0;
+  margin: 0;
+  color: #ff7527;
+}
+
+.service-section .service .service-items .service-item .services-article p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  width: 260px;
+  margin: 0 auto;
+  color: rgba(32, 50, 57, 0.55);
+}
+.service-section .service .service-items .service-item .services-redmore {
+  width: 156px;
+  margin: 10px 15px;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+}
+.service-section .service .service-items .service-item .services-redmore a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #203239;
+  padding: 10px 5px;
+}
+.service-section
+  .service
+  .service-items
+  .service-item
+  .services-redmore::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #d6d5c7;
+  z-index: -1;
+
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease-in-out;
+}
+.service-section
+  .service
+  .service-items
+  .service-item
+  .services-redmore:hover::before {
+  transform: scaleX(1);
+}
