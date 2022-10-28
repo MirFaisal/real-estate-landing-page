@@ -52,11 +52,17 @@ body {
 }
 .header .nav .menu ul li a {
   text-decoration: none;
+  padding: 5px 2px;
   color: black;
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
   color: #203239;
+}
+.header .nav .menu ul li a:hover{
+
+  border-bottom: 3px solid #ff7527;
+  transition: .2s;
 }
 .banner {
   padding-top: 50px;
@@ -219,7 +225,7 @@ body {
   color: rgba(32, 50, 57, 0.55);
 }
 .service-section .service .service-items .service-item .services-redmore {
-  width: 156px;
+  width: 165px;
   margin: 10px 15px;
   position: relative;
   overflow: hidden;
@@ -449,4 +455,138 @@ body {
   font-size: 16px;
   line-height: 30px;
   color: #203239;
+}
+.footer {
+  background: #eeedde;
+  padding: 60px 0 0;
+}
+.footer .showcase {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom:40px;
+}
+.footer .showcase .contact {
+  width: 50%;
+}
+.footer .showcase .contact .contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .showcase .contact .contact-info .call {
+  width: 243px;
+  border: 1px solid rgba(255, 117, 39, 0.5);
+  border-radius: 10px;
+  padding: 0 0 20px;
+}
+.footer .showcase .contact .contact-info .call .phone-num,
+.footer .showcase .contact .contact-info .email .email-address {
+  display: flex;
+  justify-content: center;
+}
+.footer .showcase .contact .contact-info .call .phone-num .icon,
+.footer .showcase .contact .contact-info .email .email-address .icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 30px;
+}
+.footer .showcase .contact .contact-info .call .phone-num .num p,
+.footer .showcase .contact .contact-info .email .email-address p {
+  margin: 0;
+  padding: 0;
+}
+.footer .showcase .contact .contact-info .call .phone-num,
+.footer .showcase .contact .contact-info .email .email-address {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.footer .showcase .contact .contact-info .email {
+  width: 306px;
+  border: 1px solid rgba(255, 117, 39, 0.5);
+  border-radius: 10px;
+  padding: 0 0 20px;
+}
+.footer .showcase .awards {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer .showcase .awards .awards-img {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.footer .showcase .awards .awards-img img {
+  width: 150px;
+}
+.footer .showcase .contact .contact-info .call .btn,
+.footer .showcase .contact .contact-info .email .btn {
+  display: flex;
+  justify-content: center;
+}
+.footer .showcase .contact .contact-info .call .btn a {
+  padding: 13px 41px;
+  background: rgba(255, 117, 39, 0.2);
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff7527;
+}
+.footer .showcase .contact .contact-info .email .btn a {
+  padding: 13px 41px;
+  background: rgba(255, 117, 39, 0.8);
+  border-radius: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #eeedde;
+}
+.footer .brand-and-social-media {
+  width: 100%;
+
+  background: #203239;
+}
+.footer .brand-and-social-media .links{
+    display: flex;
+  justify-content: space-between;
+}
+.footer .brand-and-social-media .logo{
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.footer .brand-and-social-media .logo p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer .brand-and-social-media .logo .brand-sine {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+.footer .brand-and-social-media .social-link{
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .brand-and-social-media .social-link a{
+  color: #ffffff;
+  text-decoration: none;
 }
