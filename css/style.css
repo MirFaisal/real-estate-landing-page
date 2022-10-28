@@ -348,3 +348,105 @@ body {
   background: #203239;
   color: #ffffff;
 }
+.Residents-of-Various-Cities-section {
+  width: 100%;
+  padding: 70px 0;
+}
+.Residents-of-Various-Cities-section .articles-and-navigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.Residents-of-Various-Cities-section .articles-and-navigator .navigator {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Residents-of-Various-Cities-section .articles-and-navigator .navigator p {
+  margin: 0 4px;
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff7527;
+  border: 1px solid #0000006d;
+}
+
+.Residents-of-Various-Cities-section .articles-and-navigator .article {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.Residents-of-Various-Cities-section .articles-and-navigator .article h1 {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  color: #203239;
+}
+.Residents-of-Various-Cities-section .articles-and-navigator .article p {
+  margin: 0;
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff7527;
+}
+.Residents-of-Various-Cities-section .showcase {
+  display: flex;
+  justify-content: space-between;
+}
+.Residents-of-Various-Cities-section .showcase .showcase-item {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.Residents-of-Various-Cities-section .showcase .showcase-item .image {
+  width: 100%;
+  height: 454px;
+}
+.Residents-of-Various-Cities-section .showcase .showcase-item .image img {
+  width: 100%;
+  height: 100%;
+}
+.Residents-of-Various-Cities-section
+  .showcase
+  .showcase-item
+  .showcase-article {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.Residents-of-Various-Cities-section
+  .showcase
+  .showcase-item
+  .showcase-article
+  h3 {
+  margin: 0;
+  padding: 5px 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #203239;
+}
+.Residents-of-Various-Cities-section
+  .showcase
+  .showcase-item
+  .showcase-article
+  p {
+  margin: 0;
+  padding: 5px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+  color: #203239;
+}
